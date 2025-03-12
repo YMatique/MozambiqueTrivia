@@ -1,0 +1,13 @@
+npm install @react-native-picker/picker
+
+# Fontes personalizadas
+npx expo install expo-font @expo-google-fonts/roboto @expo-google-fonts/lato
+
+# Ícones
+npm install react-native-vector-icons
+
+# Animações
+npx expo install react-native-reanimated react-native-gesture-handler
+
+# Sons
+npx expo install expo-av
