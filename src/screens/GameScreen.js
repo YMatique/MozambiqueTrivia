@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import questions from '../data/questions.json';
+import questions from '../data.json';
 
 export default function GameScreen({ route, navigation }) {
   const { mode, categoria } = route.params;

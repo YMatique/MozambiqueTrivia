@@ -1,5 +1,1214 @@
 {
-
+    
+        "Flora": [
+          {
+            "id": 1,
+            "pergunta": "Qual é a árvore mais emblemática de Moçambique?",
+            "opcoes": ["Baobá", "Acácia", "Embondeiro", "Palmeira"],
+            "resposta": "Embondeiro"
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual planta é a base da alimentação em Moçambique?",
+            "opcoes": ["Mandioca", "Milho", "Arroz", "Feijão"],
+            "resposta": "Mandioca"
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual é a principal árvore usada para esculturas Makonde?",
+            "opcoes": ["Ébano", "Embondeiro", "Acácia", "Cedro"],
+            "resposta": "Ébano"
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual é a planta medicinal mais comum em Moçambique?",
+            "opcoes": ["Moringa", "Aloe vera", "Gengibre", "Malva"],
+            "resposta": "Moringa"
+          },
+          {
+            "id": 5,
+            "pergunta": "Qual é a principal cultura de exportação agrícola?",
+            "opcoes": ["Caju", "Chá", "Açúcar", "Algodão"],
+            "resposta": "Caju"
+          },
+          {
+            "id": 6,
+            "pergunta": "Qual árvore é típica das savanas moçambicanas?",
+            "opcoes": ["Acácia", "Embondeiro", "Palmeira", "Ébano"],
+            "resposta": "Acácia"
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual é a planta usada para fazer Xima?",
+            "opcoes": ["Milho", "Mandioca", "Arroz", "Sorgo"],
+            "resposta": "Milho"
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual é a principal árvore das florestas tropicais de Mabu?",
+            "opcoes": ["Cedro", "Ébano", "Embondeiro", "Acácia"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 9,
+            "pergunta": "Qual planta é usada para fazer a bebida Roka?",
+            "opcoes": ["Caju", "Coco", "Cana-de-açúcar", "Mandioca"],
+            "resposta": "Caju"
+          },
+          {
+            "id": 10,
+            "pergunta": "Qual é a principal árvore de fruto nas zonas costeiras?",
+            "opcoes": ["Coqueiro", "Mangueira", "Cajueiro", "Bananeira"],
+            "resposta": "Coqueiro"
+          },
+          {
+            "id": 11,
+            "pergunta": "Qual é a planta usada na Matapa?",
+            "opcoes": ["Folhas de mandioca", "Folhas de milho", "Folhas de feijão", "Folhas de batata"],
+            "resposta": "Folhas de mandioca"
+          },
+          {
+            "id": 12,
+            "pergunta": "Qual é a principal cultura de chá em Moçambique?",
+            "opcoes": ["Chá preto", "Chá verde", "Chá de ervas", "Chá mate"],
+            "resposta": "Chá preto"
+          },
+          {
+            "id": 13,
+            "pergunta": "Qual é a árvore mais alta de Moçambique?",
+            "opcoes": ["Cedro", "Embondeiro", "Acácia", "Palmeira"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 14,
+            "pergunta": "Qual é a planta usada para fazer cestaria?",
+            "opcoes": ["Palmeira", "Junco", "Sisal", "Bambu"],
+            "resposta": "Palmeira"
+          },
+          {
+            "id": 15,
+            "pergunta": "Qual é a principal planta de fibra em Moçambique?",
+            "opcoes": ["Sisal", "Algodão", "Juta", "Linhas"],
+            "resposta": "Sisal"
+          },
+          {
+            "id": 16,
+            "pergunta": "Qual é a árvore sagrada para algumas comunidades moçambicanas?",
+            "opcoes": ["Embondeiro", "Acácia", "Ébano", "Coqueiro"],
+            "resposta": "Embondeiro"
+          },
+          {
+            "id": 17,
+            "pergunta": "Qual é a planta usada para fazer o molho piri-piri?",
+            "opcoes": ["Pimenta", "Tomate", "Cebola", "Alho"],
+            "resposta": "Pimenta"
+          },
+          {
+            "id": 18,
+            "pergunta": "Qual é a principal planta ornamental nas cidades?",
+            "opcoes": ["Flamboyant", "Jacarandá", "Palmeira", "Acácia"],
+            "resposta": "Flamboyant"
+          },
+          {
+            "id": 19,
+            "pergunta": "Qual é a planta usada para fazer açúcar?",
+            "opcoes": ["Cana-de-açúcar", "Beterraba", "Caju", "Milho"],
+            "resposta": "Cana-de-açúcar"
+          },
+          {
+            "id": 20,
+            "pergunta": "Qual é a principal árvore das zonas áridas?",
+            "opcoes": ["Acácia", "Embondeiro", "Cedro", "Palmeira"],
+            "resposta": "Acácia"
+          },
+          {
+            "id": 21,
+            "pergunta": "Qual é a planta usada para fazer cocada?",
+            "opcoes": ["Coco", "Caju", "Mandioca", "Milho"],
+            "resposta": "Coco"
+          },
+          {
+            "id": 22,
+            "pergunta": "Qual é a principal planta de sombra nas aldeias?",
+            "opcoes": ["Embondeiro", "Mangueira", "Acácia", "Coqueiro"],
+            "resposta": "Mangueira"
+          },
+          {
+            "id": 23,
+            "pergunta": "Qual é a planta mais comum nas zonas húmidas?",
+            "opcoes": ["Junco", "Palmeira", "Sisal", "Bambu"],
+            "resposta": "Junco"
+          },
+          {
+            "id": 24,
+            "pergunta": "Qual é a principal árvore de madeira para construção?",
+            "opcoes": ["Cedro", "Ébano", "Embondeiro", "Acácia"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 25,
+            "pergunta": "Qual é a planta usada para fazer tabaco?",
+            "opcoes": ["Nicotiana", "Milho", "Caju", "Algodão"],
+            "resposta": "Nicotiana"
+          },
+          {
+            "id": 26,
+            "pergunta": "Qual é a principal planta das florestas de montanha?",
+            "opcoes": ["Cedro", "Acácia", "Embondeiro", "Palmeira"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 27,
+            "pergunta": "Qual é a planta usada para fazer cordas?",
+            "opcoes": ["Sisal", "Algodão", "Juta", "Bambu"],
+            "resposta": "Sisal"
+          },
+          {
+            "id": 28,
+            "pergunta": "Qual é a principal planta de fruto no norte?",
+            "opcoes": ["Cajueiro", "Mangueira", "Coqueiro", "Bananeira"],
+            "resposta": "Cajueiro"
+          },
+          {
+            "id": 29,
+            "pergunta": "Qual é a planta usada para fazer chá em Gurué?",
+            "opcoes": ["Camellia sinensis", "Moringa", "Gengibre", "Malva"],
+            "resposta": "Camellia sinensis"
+          },
+          {
+            "id": 30,
+            "pergunta": "Qual é a principal planta das dunas costeiras?",
+            "opcoes": ["Palmeira", "Acácia", "Junco", "Sisal"],
+            "resposta": "Palmeira"
+          },
+          {
+            "id": 31,
+            "pergunta": "Qual é a planta usada para fazer óleo de cozinha?",
+            "opcoes": ["Girassol", "Coco", "Caju", "Milho"],
+            "resposta": "Coco"
+          },
+          {
+            "id": 32,
+            "pergunta": "Qual é a principal planta das planícies alagadas?",
+            "opcoes": ["Arroz", "Mandioca", "Milho", "Cana-de-açúcar"],
+            "resposta": "Arroz"
+          },
+          {
+            "id": 33,
+            "pergunta": "Qual é a árvore mais resistente à seca?",
+            "opcoes": ["Embondeiro", "Acácia", "Cedro", "Palmeira"],
+            "resposta": "Embondeiro"
+          },
+          {
+            "id": 34,
+            "pergunta": "Qual é a planta usada para tingir tecidos?",
+            "opcoes": ["Índigo", "Açafrão", "Urucum", "Beterraba"],
+            "resposta": "Índigo"
+          },
+          {
+            "id": 35,
+            "pergunta": "Qual é a principal planta das florestas de Niassa?",
+            "opcoes": ["Cedro", "Ébano", "Embondeiro", "Acácia"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 36,
+            "pergunta": "Qual é a planta usada para fazer vassouras?",
+            "opcoes": ["Palmeira", "Junco", "Sisal", "Bambu"],
+            "resposta": "Palmeira"
+          },
+          {
+            "id": 37,
+            "pergunta": "Qual é a principal planta ornamental em Lichinga?",
+            "opcoes": ["Jacarandá", "Flamboyant", "Palmeira", "Acácia"],
+            "resposta": "Jacarandá"
+          },
+          {
+            "id": 38,
+            "pergunta": "Qual é a planta usada para fazer o caril?",
+            "opcoes": ["Coco", "Pimenta", "Tomate", "Gengibre"],
+            "resposta": "Coco"
+          },
+          {
+            "id": 39,
+            "pergunta": "Qual é a principal planta das zonas de altitude?",
+            "opcoes": ["Chá", "Mandioca", "Milho", "Caju"],
+            "resposta": "Chá"
+          },
+          {
+            "id": 40,
+            "pergunta": "Qual é a planta mais comum nas ilhas?",
+            "opcoes": ["Coqueiro", "Mangueira", "Cajueiro", "Bananeira"],
+            "resposta": "Coqueiro"
+          },
+          {
+            "id": 41,
+            "pergunta": "Qual é a principal planta de cobertura do solo?",
+            "opcoes": ["Feijão", "Mandioca", "Milho", "Amendoim"],
+            "resposta": "Amendoim"
+          },
+          {
+            "id": 42,
+            "pergunta": "Qual é a árvore mais usada para lenha?",
+            "opcoes": ["Acácia", "Embondeiro", "Cedro", "Ébano"],
+            "resposta": "Acácia"
+          },
+          {
+            "id": 43,
+            "pergunta": "Qual é a planta usada para fazer perfume?",
+            "opcoes": ["Jasmim", "Moringa", "Pimenta", "Coco"],
+            "resposta": "Jasmim"
+          },
+          {
+            "id": 44,
+            "pergunta": "Qual é a principal planta das florestas de Manica?",
+            "opcoes": ["Cedro", "Acácia", "Embondeiro", "Palmeira"],
+            "resposta": "Cedro"
+          },
+          {
+            "id": 45,
+            "pergunta": "Qual é a planta usada para fazer redes de pesca?",
+            "opcoes": ["Sisal", "Algodão", "Juta", "Bambu"],
+            "resposta": "Sisal"
+          },
+          {
+            "id": 46,
+            "pergunta": "Qual é a principal planta das zonas de savana?",
+            "opcoes": ["Acácia", "Embondeiro", "Palmeira", "Cedro"],
+            "resposta": "Acácia"
+          },
+          {
+            "id": 47,
+            "pergunta": "Qual é a planta usada para fazer cerveja tradicional?",
+            "opcoes": ["Sorgo", "Milho", "Cana-de-açúcar", "Caju"],
+            "resposta": "Sorgo"
+          },
+          {
+            "id": 48,
+            "pergunta": "Qual é a principal planta das zonas de praia?",
+            "opcoes": ["Coqueiro", "Acácia", "Junco", "Sisal"],
+            "resposta": "Coqueiro"
+          },
+          {
+            "id": 49,
+            "pergunta": "Qual é a planta usada para fazer papel artesanal?",
+            "opcoes": ["Bambu", "Sisal", "Junco", "Palmeira"],
+            "resposta": "Bambu"
+          },
+          {
+            "id": 50,
+            "pergunta": "Qual é o principal fator de ameaça à flora moçambicana?",
+            "opcoes": ["Desmatamento", "Incêndios", "Agricultura", "Todos os anteriores"],
+            "resposta": "Todos os anteriores"
+          }
+        ],
+      
+        "Fauna": [
+          {
+            "id": 1,
+            "pergunta": "Qual é o maior mamífero terrestre de Moçambique?",
+            "opcoes": ["Elefante africano", "Rinoceronte", "Hipopótamo", "Girafa"],
+            "resposta": "Elefante africano"
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual animal é o símbolo da seleção de futebol de Moçambique?",
+            "opcoes": ["Mamba", "Leão", "Águia", "Tigre"],
+            "resposta": "Mamba"
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual é o principal predador das savanas moçambicanas?",
+            "opcoes": ["Leão", "Leopardo", "Hiena", "Chita"],
+            "resposta": "Leão"
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual espécie de tartaruga é comum nas praias de Moçambique?",
+            "opcoes": ["Tartaruga-de-pente", "Tartaruga-verde", "Tartaruga-oliva", "Tartaruga-gigante"],
+            "resposta": "Tartaruga-de-pente"
+          },
+          {
+            "id": 5,
+            "pergunta": "Qual é o maior peixe encontrado nas águas moçambicanas?",
+            "opcoes": ["Tubarão-baleia", "Atum", "Marlim", "Barracuda"],
+            "resposta": "Tubarão-baleia"
+          },
+          {
+            "id": 6,
+            "pergunta": "Qual animal é protegido na Reserva do Niassa?",
+            "opcoes": ["Cão-selvagem-africano", "Leão", "Elefante", "Todos os anteriores"],
+            "resposta": "Todos os anteriores"
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual é o pássaro mais colorido de Moçambique?",
+            "opcoes": ["Rola-do-mar", "Papagaio-cinzento", "Flamingo", "Abelharuco"],
+            "resposta": "Abelharuco"
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual é o réptil mais venenoso de Moçambique?",
+            "opcoes": ["Mamba-negra", "Cobra-cuspideira", "Víbora", "Cobra-coral"],
+            "resposta": "Mamba-negra"
+          },
+          {
+            "id": 9,
+            "pergunta": "Qual animal aquático é comum nos rios de Moçambique?",
+            "opcoes": ["Crocodilo", "Hipopótamo", "Peixe-boi", "Lontra"],
+            "resposta": "Crocodilo"
+          },
+          {
+            "id": 10,
+            "pergunta": "Qual é o maior primata de Moçambique?",
+            "opcoes": ["Babúino", "Gorila", "Chimpanzé", "Macaco-vervet"],
+            "resposta": "Babúino"
+          },
+          {
+            "id": 11,
+            "pergunta": "Qual é o principal mamífero marinho nas costas moçambicanas?",
+            "opcoes": ["Golfinho", "Baleia", "Dugongo", "Foca"],
+            "resposta": "Dugongo"
+          },
+          {
+            "id": 12,
+            "pergunta": "Qual animal é conhecido por suas manchas?",
+            "opcoes": ["Leopardo", "Chita", "Hiena", "Leão"],
+            "resposta": "Leopardo"
+          },
+          {
+            "id": 13,
+            "pergunta": "Qual é o maior antílope de Moçambique?",
+            "opcoes": ["Eland", "Cudo", "Impala", "Palanca-negra"],
+            "resposta": "Eland"
+          },
+          {
+            "id": 14,
+            "pergunta": "Qual ave é símbolo das zonas húmidas de Moçambique?",
+            "opcoes": ["Flamingo", "Garça", "Pelicano", "Cegonha"],
+            "resposta": "Flamingo"
+          },
+          {
+            "id": 15,
+            "pergunta": "Qual é o principal inseto transmissor de doenças em Moçambique?",
+            "opcoes": ["Mosquito", "Mosca-tsé-tsé", "Abelha", "Gafanhoto"],
+            "resposta": "Mosquito"
+          },
+          {
+            "id": 16,
+            "pergunta": "Qual animal é encontrado no Parque Nacional da Gorongosa?",
+            "opcoes": ["Leão", "Elefante", "Búfalo", "Todos os anteriores"],
+            "resposta": "Todos os anteriores"
+          },
+          {
+            "id": 17,
+            "pergunta": "Qual é o peixe mais pescado na costa moçambicana?",
+            "opcoes": ["Camarão", "Atum", "Sardinha", "Pargo"],
+            "resposta": "Camarão"
+          },
+          {
+            "id": 18,
+            "pergunta": "Qual é o menor mamífero de Moçambique?",
+            "opcoes": ["Musaranho", "Rato", "Morcego", "Coelho"],
+            "resposta": "Musaranho"
+          },
+          {
+            "id": 19,
+            "pergunta": "Qual é o principal predador aquático dos rios?",
+            "opcoes": ["Crocodilo", "Hipopótamo", "Peixe-tigre", "Lontra"],
+            "resposta": "Crocodilo"
+          },
+          {
+            "id": 20,
+            "pergunta": "Qual animal é conhecido por seus chifres espiralados?",
+            "opcoes": ["Cudo", "Impala", "Eland", "Palanca-negra"],
+            "resposta": "Cudo"
+          },
+          {
+            "id": 21,
+            "pergunta": "Qual é o maior pássaro de Moçambique?",
+            "opcoes": ["Avestruz", "Pelicano", "Abutre", "Flamingo"],
+            "resposta": "Avestruz"
+          },
+          {
+            "id": 22,
+            "pergunta": "Qual é o principal animal ameaçado no norte de Moçambique?",
+            "opcoes": ["Elefante", "Rinoceronte", "Dugongo", "Leopardo"],
+            "resposta": "Elefante"
+          },
+          {
+            "id": 23,
+            "pergunta": "Qual é o réptil mais comum nas zonas costeiras?",
+            "opcoes": ["Lagarto-monitor", "Cobra-cuspideira", "Mamba-negra", "Camaleão"],
+            "resposta": "Lagarto-monitor"
+          },
+          {
+            "id": 24,
+            "pergunta": "Qual é o principal mamífero das zonas húmidas?",
+            "opcoes": ["Hipopótamo", "Elefante", "Búfalo", "Cão-selvagem"],
+            "resposta": "Hipopótamo"
+          },
+          {
+            "id": 25,
+            "pergunta": "Qual é o peixe de água doce mais comum no Lago Niassa?",
+            "opcoes": ["Tilápia", "Peixe-tigre", "Sardinha", "Carpa"],
+            "resposta": "Tilápia"
+          },
+          {
+            "id": 26,
+            "pergunta": "Qual animal é conhecido por sua velocidade?",
+            "opcoes": ["Chita", "Leopardo", "Hiena", "Leão"],
+            "resposta": "Chita"
+          },
+          {
+            "id": 27,
+            "pergunta": "Qual é o principal pássaro de rapina em Moçambique?",
+            "opcoes": ["Águia-pescadora", "Abutre", "Falcão", "Coruja"],
+            "resposta": "Águia-pescadora"
+          },
+          {
+            "id": 28,
+            "pergunta": "Qual é o animal mais caçado ilegalmente em Moçambique?",
+            "opcoes": ["Elefante", "Rinoceronte", "Leopardo", "Búfalo"],
+            "resposta": "Elefante"
+          },
+          {
+            "id": 29,
+            "pergunta": "Qual é o principal crustáceo das águas moçambicanas?",
+            "opcoes": ["Camarão", "Caranguejo", "Lagosta", "Siri"],
+            "resposta": "Camarão"
+          },
+          {
+            "id": 30,
+            "pergunta": "Qual é o animal conhecido por seu pescoço longo?",
+            "opcoes": ["Girafa", "Avestruz", "Eland", "Flamingo"],
+            "resposta": "Girafa"
+          },
+          {
+            "id": 31,
+            "pergunta": "Qual é o principal predador das zonas costeiras?",
+            "opcoes": ["Tubarão", "Crocodilo", "Leopardo", "Hiena"],
+            "resposta": "Tubarão"
+          },
+          {
+            "id": 32,
+            "pergunta": "Qual é o menor antílope de Moçambique?",
+            "opcoes": ["Duiker", "Impala", "Cudo", "Eland"],
+            "resposta": "Duiker"
+          },
+          {
+            "id": 33,
+            "pergunta": "Qual é o principal animal das florestas de Mabu?",
+            "opcoes": ["Macaco-vervet", "Leopardo", "Elefante", "Búfalo"],
+            "resposta": "Macaco-vervet"
+          },
+          {
+            "id": 34,
+            "pergunta": "Qual é o pássaro mais comum nas cidades?",
+            "opcoes": ["Pombo", "Rola-do-mar", "Flamingo", "Abelharuco"],
+            "resposta": "Pombo"
+          },
+          {
+            "id": 35,
+            "pergunta": "Qual é o principal mamífero das planícies?",
+            "opcoes": ["Búfalo", "Elefante", "Leão", "Hipopótamo"],
+            "resposta": "Búfalo"
+          },
+          {
+            "id": 36,
+            "pergunta": "Qual é o réptil mais encontrado em rios?",
+            "opcoes": ["Crocodilo", "Lagarto-monitor", "Cobra-d’água", "Tartaruga"],
+            "resposta": "Crocodilo"
+          },
+          {
+            "id": 37,
+            "pergunta": "Qual é o principal animal protegido em Bazaruto?",
+            "opcoes": ["Dugongo", "Tubarão", "Golfinho", "Tartaruga"],
+            "resposta": "Dugongo"
+          },
+          {
+            "id": 38,
+            "pergunta": "Qual é o maior felino de Moçambique?",
+            "opcoes": ["Leão", "Leopardo", "Chita", "Lince"],
+            "resposta": "Leão"
+          },
+          {
+            "id": 39,
+            "pergunta": "Qual é o principal peixe predador das águas costeiras?",
+            "opcoes": ["Barracuda", "Atum", "Tubarão", "Marlim"],
+            "resposta": "Barracuda"
+          },
+          {
+            "id": 40,
+            "pergunta": "Qual é o animal conhecido por suas listras?",
+            "opcoes": ["Zebra", "Impala", "Cudo", "Girafa"],
+            "resposta": "Zebra"
+          },
+          {
+            "id": 41,
+            "pergunta": "Qual é o principal pássaro das florestas tropicais?",
+            "opcoes": ["Papagaio-cinzento", "Flamingo", "Abutre", "Rola-do-mar"],
+            "resposta": "Papagaio-cinzento"
+          },
+          {
+            "id": 42,
+            "pergunta": "Qual é o animal mais ameaçado no Parque Nacional de Zinave?",
+            "opcoes": ["Rinoceronte", "Elefante", "Leopardo", "Cão-selvagem"],
+            "resposta": "Rinoceronte"
+          },
+          {
+            "id": 43,
+            "pergunta": "Qual é o principal inseto polinizador em Moçambique?",
+            "opcoes": ["Abelha", "Borboleta", "Mosca", "Joaninha"],
+            "resposta": "Abelha"
+          },
+          {
+            "id": 44,
+            "pergunta": "Qual é o animal conhecido por seu chifre único?",
+            "opcoes": ["Rinoceronte", "Eland", "Cudo", "Impala"],
+            "resposta": "Rinoceronte"
+          },
+          {
+            "id": 45,
+            "pergunta": "Qual é o principal molusco das águas moçambicanas?",
+            "opcoes": ["Polvo", "Lula", "Ostra", "Mexilhão"],
+            "resposta": "Polvo"
+          },
+          {
+            "id": 46,
+            "pergunta": "Qual é o pássaro mais barulhento de Moçambique?",
+            "opcoes": ["Papagaio-cinzento", "Abelharuco", "Flamingo", "Pombo"],
+            "resposta": "Papagaio-cinzento"
+          },
+          {
+            "id": 47,
+            "pergunta": "Qual é o principal animal das montanhas de Moçambique?",
+            "opcoes": ["Leopardo", "Babúino", "Elefante", "Búfalo"],
+            "resposta": "Leopardo"
+          },
+          {
+            "id": 48,
+            "pergunta": "Qual é o réptil mais colorido de Moçambique?",
+            "opcoes": ["Camaleão", "Cobra-coral", "Lagarto-monitor", "Mamba-negra"],
+            "resposta": "Camaleão"
+          },
+          {
+            "id": 49,
+            "pergunta": "Qual é o principal animal das ilhas Quirimbas?",
+            "opcoes": ["Tartaruga", "Dugongo", "Golfinho", "Tubarão"],
+            "resposta": "Tartaruga"
+          },
+          {
+            "id": 50,
+            "pergunta": "Qual é o principal fator de ameaça à fauna moçambicana?",
+            "opcoes": ["Caça ilegal", "Desmatamento", "Poluição", "Todos os anteriores"],
+            "resposta": "Todos os anteriores"
+          }
+        ],
+        "Esportes": [
+          {
+            "id": 1,
+            "pergunta": "Qual é o esporte mais popular em Moçambique?",
+            "opcoes": ["Futebol", "Basquetebol", "Atletismo", "Voleibol"],
+            "resposta": "Futebol"
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual é a seleção nacional de futebol de Moçambique?",
+            "opcoes": ["Os Mambas", "Os Leões", "Os Águias", "Os Tigres"],
+            "resposta": "Os Mambas"
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual clube de futebol é o mais antigo de Moçambique?",
+            "opcoes": ["Desportivo de Maputo", "Ferroviário de Maputo", "Costa do Sol", "Maxaquene"],
+            "resposta": "Desportivo de Maputo"
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual é o principal campeonato de futebol em Moçambique?",
+            "opcoes": ["Moçambola", "Liga Nacional", "Taça de Maputo", "Campeonato Provincial"],
+            "resposta": "Moçambola"
+          },
+          {
+            "id": 5,
+            "pergunta": "Qual atleta moçambicana ganhou ouro olímpico em 2000?",
+            "opcoes": ["Maria Mutola", "Lurdes Mutola", "Clarisse Machanguana", "Esperança Bias"],
+            "resposta": "Maria Mutola"
+          },
+          {
+            "id": 6,
+            "pergunta": "Em que cidade está localizado o Estádio Nacional do Zimpeto?",
+            "opcoes": ["Maputo", "Beira", "Nampula", "Matola"],
+            "resposta": "Maputo"
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual é o esporte aquático mais praticado na costa moçambicana?",
+            "opcoes": ["Natação", "Mergulho", "Polo aquático", "Remo"],
+            "resposta": "Mergulho"
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual clube venceu o Moçambola mais vezes?",
+            "opcoes": ["Ferroviário de Maputo", "Costa do Sol", "Desportivo de Maputo", "Maxaquene"],
+            "resposta": "Ferroviário de Maputo"
+          },
+          {
+            "id": 9,
+            "pergunta": "Qual é a modalidade em que Maria Mutola se destacou?",
+            "opcoes": ["800 metros", "100 metros", "Salto em altura", "Maratona"],
+            "resposta": "800 metros"
+          },
+          {
+            "id": 10,
+            "pergunta": "Qual cidade sedia o Ferroviário da Beira?",
+            "opcoes": ["Beira", "Maputo", "Nampula", "Quelimane"],
+            "resposta": "Beira"
+          },
+          {
+            "id": 11,
+            "pergunta": "Qual é o principal torneio de basquetebol em Moçambique?",
+            "opcoes": ["Liga Nacional de Basquete", "Taça de Moçambique", "Campeonato de Maputo", "Moçambola Basket"],
+            "resposta": "Liga Nacional de Basquete"
+          },
+          {
+            "id": 12,
+            "pergunta": "Qual esporte tradicional é praticado em Cabo Delgado?",
+            "opcoes": ["Luta Makonde", "Corrida de canoas", "Jogo de mancala", "Arco e flecha"],
+            "resposta": "Corrida de canoas"
+          },
+          {
+            "id": 13,
+            "pergunta": "Qual é o apelido do Costa do Sol?",
+            "opcoes": ["Canarinhos", "Mambas", "Leões", "Águias"],
+            "resposta": "Canarinhos"
+          },
+          {
+            "id": 14,
+            "pergunta": "Qual é o estádio mais antigo de Moçambique?",
+            "opcoes": ["Estádio da Machava", "Estádio do Zimpeto", "Estádio do Ferroviário", "Estádio do Costa do Sol"],
+            "resposta": "Estádio da Machava"
+          },
+          {
+            "id": 15,
+            "pergunta": "Qual é o principal evento de atletismo em Moçambique?",
+            "opcoes": ["Maratona de Maputo", "Corrida da Paz", "Grande Prêmio de Atletismo", "Corrida Nacional"],
+            "resposta": "Maratona de Maputo"
+          },
+          {
+            "id": 16,
+            "pergunta": "Qual clube de basquetebol é o mais bem-sucedido de Moçambique?",
+            "opcoes": ["Ferroviário de Maputo", "Desportivo de Maputo", "Costa do Sol", "Maxaquene"],
+            "resposta": "Ferroviário de Maputo"
+          },
+          {
+            "id": 17,
+            "pergunta": "Qual cidade é conhecida pelo futebol em Nampula?",
+            "opcoes": ["Nampula", "Angoche", "Monapo", "Nacala"],
+            "resposta": "Nampula"
+          },
+          {
+            "id": 18,
+            "pergunta": "Qual é o apelido do Maxaquene?",
+            "opcoes": ["Maxaca", "Leões", "Canarinhos", "Mambas"],
+            "resposta": "Maxaca"
+          },
+          {
+            "id": 19,
+            "pergunta": "Quantas vezes Moçambique participou dos Jogos Olímpicos até 2025?",
+            "opcoes": ["5", "10", "12", "15"],
+            "resposta": "12"
+          },
+          {
+            "id": 20,
+            "pergunta": "Qual é o principal esporte escolar em Moçambique?",
+            "opcoes": ["Futebol", "Basquetebol", "Voleibol", "Atletismo"],
+            "resposta": "Futebol"
+          },
+          {
+            "id": 21,
+            "pergunta": "Qual é o maior rival do Ferroviário de Maputo?",
+            "opcoes": ["Desportivo de Maputo", "Costa do Sol", "Maxaquene", "Liga Desportiva"],
+            "resposta": "Desportivo de Maputo"
+          },
+          {
+            "id": 22,
+            "pergunta": "Qual é o principal torneio de voleibol em Moçambique?",
+            "opcoes": ["Liga Nacional de Voleibol", "Taça de Maputo", "Campeonato Provincial", "Volei Moçambola"],
+            "resposta": "Liga Nacional de Voleibol"
+          },
+          {
+            "id": 23,
+            "pergunta": "Qual atleta moçambicano competiu na natação olímpica?",
+            "opcoes": ["Joaquim Lobo", "Kurt Couto", "Maria Mutola", "Clarisse Machanguana"],
+            "resposta": "Joaquim Lobo"
+          },
+          {
+            "id": 24,
+            "pergunta": "Qual é o estádio principal da província de Sofala?",
+            "opcoes": ["Estádio do Ferroviário da Beira", "Estádio do Zimpeto", "Estádio da Machava", "Estádio do Costa do Sol"],
+            "resposta": "Estádio do Ferroviário da Beira"
+          },
+          {
+            "id": 25,
+            "pergunta": "Qual é o principal esporte praticado nas praias?",
+            "opcoes": ["Futebol de praia", "Voleibol de praia", "Surf", "Natação"],
+            "resposta": "Futebol de praia"
+          },
+          {
+            "id": 26,
+            "pergunta": "Qual clube de futebol é conhecido como 'Locomotivas'?",
+            "opcoes": ["Ferroviário de Maputo", "Costa do Sol", "Maxaquene", "Desportivo de Maputo"],
+            "resposta": "Ferroviário de Maputo"
+          },
+          {
+            "id": 27,
+            "pergunta": "Qual é o principal evento de ciclismo em Moçambique?",
+            "opcoes": ["Volta a Moçambique", "Grande Prêmio de Maputo", "Ciclismo Nacional", "Corrida da Cidade"],
+            "resposta": "Volta a Moçambique"
+          },
+          {
+            "id": 28,
+            "pergunta": "Qual é o apelido da seleção feminina de basquetebol?",
+            "opcoes": ["Mambinhas", "Leoas", "Águias", "Tigresas"],
+            "resposta": "Mambinhas"
+          },
+          {
+            "id": 29,
+            "pergunta": "Qual cidade é conhecida pelo basquetebol em Sofala?",
+            "opcoes": ["Beira", "Chimoio", "Dondo", "Manica"],
+            "resposta": "Beira"
+          },
+          {
+            "id": 30,
+            "pergunta": "Qual é o principal torneio de futebol de salão?",
+            "opcoes": ["Liga de Futsal", "Taça de Moçambique", "Campeonato de Maputo", "Futsal Moçambola"],
+            "resposta": "Liga de Futsal"
+          },
+          {
+            "id": 31,
+            "pergunta": "Qual é o maior estádio de Moçambique em capacidade?",
+            "opcoes": ["Estádio Nacional do Zimpeto", "Estádio da Machava", "Estádio do Ferroviário", "Estádio do Costa do Sol"],
+            "resposta": "Estádio Nacional do Zimpeto"
+          },
+          {
+            "id": 32,
+            "pergunta": "Qual é o principal esporte de combate em Moçambique?",
+            "opcoes": ["Boxe", "Karaté", "Judô", "Luta tradicional"],
+            "resposta": "Boxe"
+          },
+          {
+            "id": 33,
+            "pergunta": "Qual clube de futebol é baseado em Matola?",
+            "opcoes": ["Liga Desportiva", "Ferroviário de Maputo", "Costa do Sol", "Maxaquene"],
+            "resposta": "Liga Desportiva"
+          },
+          {
+            "id": 34,
+            "pergunta": "Qual é o principal evento de corrida de rua em Maputo?",
+            "opcoes": ["Corrida da Paz", "Maratona de Maputo", "Grande Prêmio", "Corrida Nacional"],
+            "resposta": "Corrida da Paz"
+          },
+          {
+            "id": 35,
+            "pergunta": "Qual é o apelido do Desportivo de Maputo?",
+            "opcoes": ["Alvi-Negros", "Canarinhos", "Locomotivas", "Maxaca"],
+            "resposta": "Alvi-Negros"
+          },
+          {
+            "id": 36,
+            "pergunta": "Qual é o principal ginásio de basquetebol em Maputo?",
+            "opcoes": ["Pavilhão do Maxaquene", "Pavilhão do Zimpeto", "Pavilhão da Machava", "Pavilhão do Ferroviário"],
+            "resposta": "Pavilhão do Maxaquene"
+          },
+          {
+            "id": 37,
+            "pergunta": "Qual é o esporte mais praticado nas zonas rurais?",
+            "opcoes": ["Futebol", "Atletismo", "Voleibol", "Luta tradicional"],
+            "resposta": "Futebol"
+          },
+          {
+            "id": 38,
+            "pergunta": "Qual é o principal torneio de futebol juvenil?",
+            "opcoes": ["Taça da Esperança", "Moçambola Juvenil", "Campeonato Nacional", "Liga Jovem"],
+            "resposta": "Taça da Esperança"
+          },
+          {
+            "id": 39,
+            "pergunta": "Qual cidade é conhecida pelo voleibol em Inhambane?",
+            "opcoes": ["Inhambane", "Maxixe", "Vilankulo", "Tofo"],
+            "resposta": "Maxixe"
+          },
+          {
+            "id": 40,
+            "pergunta": "Qual é o principal evento de natação em Moçambique?",
+            "opcoes": ["Travessia de Maputo", "Campeonato Nacional", "Natação da Paz", "Grande Prêmio Aquático"],
+            "resposta": "Travessia de Maputo"
+          },
+          {
+            "id": 41,
+            "pergunta": "Qual é o apelido da seleção de atletismo?",
+            "opcoes": ["Mambas Velozes", "Leões", "Águias", "Tigres"],
+            "resposta": "Mambas Velozes"
+          },
+          {
+            "id": 42,
+            "pergunta": "Qual é o principal clube de futebol em Quelimane?",
+            "opcoes": ["Ferroviário de Quelimane", "Costa do Sol", "Maxaquene", "Desportivo de Maputo"],
+            "resposta": "Ferroviário de Quelimane"
+          },
+          {
+            "id": 43,
+            "pergunta": "Qual é o principal esporte de equipe feminino?",
+            "opcoes": ["Basquetebol", "Futebol", "Voleibol", "Hóquei"],
+            "resposta": "Basquetebol"
+          },
+          {
+            "id": 44,
+            "pergunta": "Qual é o maior rival do Costa do Sol?",
+            "opcoes": ["Maxaquene", "Ferroviário de Maputo", "Desportivo de Maputo", "Liga Desportiva"],
+            "resposta": "Maxaquene"
+          },
+          {
+            "id": 45,
+            "pergunta": "Qual é o principal torneio de boxe em Moçambique?",
+            "opcoes": ["Campeonato Nacional de Boxe", "Taça de Maputo", "Luta da Paz", "Grande Prêmio de Boxe"],
+            "resposta": "Campeonato Nacional de Boxe"
+          },
+          {
+            "id": 46,
+            "pergunta": "Qual cidade é conhecida pelo atletismo em Niassa?",
+            "opcoes": ["Lichinga", "Cuamba", "Mandimba", "Marrupa"],
+            "resposta": "Lichinga"
+          },
+          {
+            "id": 47,
+            "pergunta": "Qual é o principal evento de futebol de praia?",
+            "opcoes": ["Copa de Praia", "Taça Nacional", "Campeonato de Maputo", "Praia Moçambola"],
+            "resposta": "Copa de Praia"
+          },
+          {
+            "id": 48,
+            "pergunta": "Qual é o apelido do Ferroviário da Beira?",
+            "opcoes": ["Locomotivas", "Canarinhos", "Maxaca", "Alvi-Negros"],
+            "resposta": "Locomotivas"
+          },
+          {
+            "id": 49,
+            "pergunta": "Qual é o principal torneio de tênis em Moçambique?",
+            "opcoes": ["Open de Maputo", "Taça Nacional", "Campeonato de Tênis", "Grande Prêmio"],
+            "resposta": "Open de Maputo"
+          },
+          {
+            "id": 50,
+            "pergunta": "Qual é o principal incentivo ao esporte em Moçambique?",
+            "opcoes": ["Governo", "Clubes", "Patrocinadores", "Todos os anteriores"],
+            "resposta": "Todos os anteriores"
+          }
+        ],
+        "Cultura": [
+          {
+            "id": 1,
+            "pergunta": "Qual é a dança tradicional mais conhecida de Moçambique?",
+            "opcoes": ["Mapiko", "Tufu", "Marrabenta", "Xigubo"],
+            "resposta": "Marrabenta"
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual instrumento musical é típico da cultura moçambicana?",
+            "opcoes": ["Mbira", "Timbila", "Djembe", "Kora"],
+            "resposta": "Timbila"
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual é o prato tradicional mais famoso de Moçambique?",
+            "opcoes": ["Matapa", "Pãozinho", "Xima", "Camarão grelhado"],
+            "resposta": "Matapa"
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual grupo étnico é conhecido pela dança Mapiko?",
+            "opcoes": ["Makonde", "Tsonga", "Sena", "Makhuwa"],
+            "resposta": "Makonde"
+          },
+          {
+            "id": 5,
+            "pergunta": "Qual é a bebida tradicional feita de caju?",
+            "opcoes": ["Cajuína", "Roka", "Ukhamba", "Mampoer"],
+            "resposta": "Roka"
+          },
+          {
+            "id": 6,
+            "pergunta": "Qual cidade é considerada o berço da Marrabenta?",
+            "opcoes": ["Maputo", "Beira", "Nampula", "Inhambane"],
+            "resposta": "Maputo"
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual é o principal material usado nas esculturas Makonde?",
+            "opcoes": ["Madeira", "Barro", "Pedra", "Metal"],
+            "resposta": "Madeira"
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual feriado celebra a independência de Moçambique?",
+            "opcoes": ["25 de Junho", "7 de Setembro", "1 de Maio", "3 de Fevereiro"],
+            "resposta": "25 de Junho"
+          },
+          {
+            "id": 9,
+            "pergunta": "Qual escritor moçambicano é conhecido por 'Terra Sonâmbula'?",
+            "opcoes": ["Mia Couto", "José Craveirinha", "Noémia de Sousa", "Paulinho Assunção"],
+            "resposta": "Mia Couto"
+          },
+          {
+            "id": 10,
+            "pergunta": "Qual é o nome do festival anual de música em Maputo?",
+            "opcoes": ["AZGO", "FEST", "Marrabenta Festival", "Chopi Music Festival"],
+            "resposta": "AZGO"
+          },
+          {
+            "id": 11,
+            "pergunta": "Qual é a dança tradicional dos Tsonga?",
+            "opcoes": ["Xigubo", "Mapiko", "Tufu", "Marrabenta"],
+            "resposta": "Xigubo"
+          },
+          {
+            "id": 12,
+            "pergunta": "Qual é o principal ingrediente da Matapa?",
+            "opcoes": ["Folhas de mandioca", "Milho", "Arroz", "Feijão"],
+            "resposta": "Folhas de mandioca"
+          },
+          {
+            "id": 13,
+            "pergunta": "Qual poeta é considerado o 'pai da poesia moçambicana'?",
+            "opcoes": ["José Craveirinha", "Mia Couto", "Noémia de Sousa", "Ungulani Ba Ka Khosa"],
+            "resposta": "José Craveirinha"
+          },
+          {
+            "id": 14,
+            "pergunta": "Qual é o artesanato típico da Ilha de Moçambique?",
+            "opcoes": ["Joias de prata", "Cestaria", "Esculturas de madeira", "Tecelagem"],
+            "resposta": "Joias de prata"
+          },
+          {
+            "id": 15,
+            "pergunta": "Qual é o nome da dança guerreira dos Nguni?",
+            "opcoes": ["Tufu", "Xigubo", "Mapiko", "Ngalanga"],
+            "resposta": "Ngalanga"
+          },
+          {
+            "id": 16,
+            "pergunta": "Qual é o principal festival de cinema em Moçambique?",
+            "opcoes": ["DOCKANEMA", "FESTIVAL", "CINEMAFRICA", "MOZAMBIQUE FILM"],
+            "resposta": "DOCKANEMA"
+          },
+          {
+            "id": 17,
+            "pergunta": "Qual é a sobremesa tradicional feita com coco?",
+            "opcoes": ["Cocada", "Pudim de caju", "Bolo de milho", "Doce de mandioca"],
+            "resposta": "Cocada"
+          },
+          {
+            "id": 18,
+            "pergunta": "Qual grupo étnico é famoso pela música com Timbila?",
+            "opcoes": ["Chopi", "Makonde", "Tsonga", "Sena"],
+            "resposta": "Chopi"
+          },
+          {
+            "id": 19,
+            "pergunta": "Qual é o feriado que celebra os heróis nacionais?",
+            "opcoes": ["3 de Fevereiro", "25 de Junho", "7 de Setembro", "1 de Maio"],
+            "resposta": "3 de Fevereiro"
+          },
+          {
+            "id": 20,
+            "pergunta": "Qual é o estilo musical que mistura ritmos africanos e portugueses?",
+            "opcoes": ["Marrabenta", "Tufu", "Mapiko", "Xigubo"],
+            "resposta": "Marrabenta"
+          },
+          {
+            "id": 21,
+            "pergunta": "Qual é o principal tecido usado nas vestimentas tradicionais?",
+            "opcoes": ["Capulana", "Kente", "Ankara", "Kitenge"],
+            "resposta": "Capulana"
+          },
+          {
+            "id": 22,
+            "pergunta": "Qual é o nome do mercado de artesanato famoso em Maputo?",
+            "opcoes": ["FEIMA", "Mercado Central", "Mercado Xipamanine", "Mercado do Peixe"],
+            "resposta": "FEIMA"
+          },
+          {
+            "id": 23,
+            "pergunta": "Qual é o principal evento cultural da Ilha de Moçambique?",
+            "opcoes": ["Festival de São Sebastião", "Festival de Marrabenta", "Festival AZGO", "Festival de Timbila"],
+            "resposta": "Festival de São Sebastião"
+          },
+          {
+            "id": 24,
+            "pergunta": "Qual é o prato típico feito com milho?",
+            "opcoes": ["Xima", "Matapa", "Pãozinho", "Camarão grelhado"],
+            "resposta": "Xima"
+          },
+          {
+            "id": 25,
+            "pergunta": "Qual é o principal escritor da poesia anticolonial?",
+            "opcoes": ["Noémia de Sousa", "Mia Couto", "José Craveirinha", "Paulinho Assunção"],
+            "resposta": "Noémia de Sousa"
+          },
+          {
+            "id": 26,
+            "pergunta": "Qual é a dança tradicional dos Sena?",
+            "opcoes": ["Tufu", "Xigubo", "Mapiko", "Ngalanga"],
+            "resposta": "Tufu"
+          },
+          {
+            "id": 27,
+            "pergunta": "Qual é o principal festival de dança em Moçambique?",
+            "opcoes": ["Kinani", "AZGO", "FEST", "DOCKANEMA"],
+            "resposta": "Kinani"
+          },
+          {
+            "id": 28,
+            "pergunta": "Qual é o instrumento de percussão típico dos Makhuwa?",
+            "opcoes": ["Tambor", "Timbila", "Mbira", "Xilofone"],
+            "resposta": "Tambor"
+          },
+          {
+            "id": 29,
+            "pergunta": "Qual é o feriado que celebra a paz em Moçambique?",
+            "opcoes": ["4 de Outubro", "25 de Junho", "3 de Fevereiro", "7 de Setembro"],
+            "resposta": "4 de Outubro"
+          },
+          {
+            "id": 30,
+            "pergunta": "Qual é o principal tipo de pintura tradicional?",
+            "opcoes": ["Pintura mural", "Pintura em tela", "Pintura em cerâmica", "Pintura corporal"],
+            "resposta": "Pintura mural"
+          },
+          {
+            "id": 31,
+            "pergunta": "Qual é o nome do pão tradicional moçambicano?",
+            "opcoes": ["Pãozinho", "Xima", "Matapa", "Cocada"],
+            "resposta": "Pãozinho"
+          },
+          {
+            "id": 32,
+            "pergunta": "Qual é o principal museu de cultura em Maputo?",
+            "opcoes": ["Museu Nacional de Arte", "Museu da Revolução", "Museu de História Natural", "Museu do Pescador"],
+            "resposta": "Museu Nacional de Arte"
+          },
+          {
+            "id": 33,
+            "pergunta": "Qual é a dança tradicional dos Yao?",
+            "opcoes": ["Ngalanga", "Tufu", "Mapiko", "Xigubo"],
+            "resposta": "Ngalanga"
+          },
+          {
+            "id": 34,
+            "pergunta": "Qual é o principal ingrediente do molho piri-piri?",
+            "opcoes": ["Pimenta", "Tomate", "Cebola", "Alho"],
+            "resposta": "Pimenta"
+          },
+          {
+            "id": 35,
+            "pergunta": "Qual é o artesanato típico da província de Inhambane?",
+            "opcoes": ["Cestaria", "Esculturas", "Joias", "Tecelagem"],
+            "resposta": "Cestaria"
+          },
+          {
+            "id": 36,
+            "pergunta": "Qual é o principal escritor moçambicano contemporâneo?",
+            "opcoes": ["Mia Couto", "José Craveirinha", "Noémia de Sousa", "Ungulani Ba Ka Khosa"],
+            "resposta": "Mia Couto"
+          },
+          {
+            "id": 37,
+            "pergunta": "Qual é o feriado que celebra o Dia da Mulher Moçambicana?",
+            "opcoes": ["7 de Abril", "25 de Junho", "3 de Fevereiro", "4 de Outubro"],
+            "resposta": "7 de Abril"
+          },
+          {
+            "id": 38,
+            "pergunta": "Qual é o principal estilo arquitetônico da Ilha de Moçambique?",
+            "opcoes": ["Árabe-Swahili", "Português colonial", "Moderno", "Indiano"],
+            "resposta": "Árabe-Swahili"
+          },
+          {
+            "id": 39,
+            "pergunta": "Qual é o principal evento cultural em Nampula?",
+            "opcoes": ["Festival Makhuwa", "Festival de Marrabenta", "Festival AZGO", "Festival de Timbila"],
+            "resposta": "Festival Makhuwa"
+          },
+          {
+            "id": 40,
+            "pergunta": "Qual é o principal tipo de teatro em Moçambique?",
+            "opcoes": ["Teatro comunitário", "Teatro clássico", "Teatro de rua", "Teatro experimental"],
+            "resposta": "Teatro comunitário"
+          },
+          {
+            "id": 41,
+            "pergunta": "Qual é o principal peixe usado na culinária costeira?",
+            "opcoes": ["Pargo", "Atum", "Sardinha", "Camarão"],
+            "resposta": "Pargo"
+          },
+          {
+            "id": 42,
+            "pergunta": "Qual é o principal festival de música tradicional em Inhambane?",
+            "opcoes": ["Festival de Timbila", "Festival AZGO", "Festival de Marrabenta", "Festival Chopi"],
+            "resposta": "Festival Chopi"
+          },
+          {
+            "id": 43,
+            "pergunta": "Qual é o principal tipo de máscara usado na dança Mapiko?",
+            "opcoes": ["Madeira", "Barro", "Pano", "Metal"],
+            "resposta": "Madeira"
+          },
+          {
+            "id": 44,
+            "pergunta": "Qual é o principal evento literário em Moçambique?",
+            "opcoes": ["Feira do Livro de Maputo", "Festival de Poesia", "Semana Literária", "Encontro de Escritores"],
+            "resposta": "Feira do Livro de Maputo"
+          },
+          {
+            "id": 45,
+            "pergunta": "Qual é o principal ingrediente do caril moçambicano?",
+            "opcoes": ["Coco", "Tomate", "Pimenta", "Cebola"],
+            "resposta": "Coco"
+          },
+          {
+            "id": 46,
+            "pergunta": "Qual é o principal grupo de teatro em Moçambique?",
+            "opcoes": ["Mutumbela Gogo", "Teatro Avenida", "Grupo Cena", "Companhia Nacional"],
+            "resposta": "Mutumbela Gogo"
+          },
+          {
+            "id": 47,
+            "pergunta": "Qual é o principal feriado religioso em Moçambique?",
+            "opcoes": ["Natal", "Ramadã", "Páscoa", "Diwali"],
+            "resposta": "Natal"
+          },
+          {
+            "id": 48,
+            "pergunta": "Qual é o principal tipo de cerâmica tradicional?",
+            "opcoes": ["Potes de barro", "Esculturas", "Joias", "Placas"],
+            "resposta": "Potes de barro"
+          },
+          {
+            "id": 49,
+            "pergunta": "Qual é o principal evento cultural em Sofala?",
+            "opcoes": ["Festival Sena", "Festival de Marrabenta", "Festival AZGO", "Festival de Timbila"],
+            "resposta": "Festival Sena"
+          },
+          {
+            "id": 50,
+            "pergunta": "Qual é a principal influência na culinária moçambicana?",
+            "opcoes": ["Portuguesa", "Árabe", "Indiana", "Todas as anteriores"],
+            "resposta": "Todas as anteriores"
+          }
+        ],
         "Demografia": [
           {
             "id": 1,
