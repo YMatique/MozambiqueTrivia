@@ -1,5 +1,5 @@
 // src/screens/ResultScreen.js
-import React from 'react';
+import {React, useState, useEffect} from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Animated } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -7,7 +7,7 @@ export default function ResultScreen({ route, navigation }) {
   const { player1Score, player2Score, totalQuestions, mode } = route.params;
   const [fadeAnim] = useState(new Animated.Value(0));
 
-  React.useEffect(() => {
+  useEffect(() => {
     Animated.timing(fadeAnim, {
       toValue: 1,
       duration: 1000,
