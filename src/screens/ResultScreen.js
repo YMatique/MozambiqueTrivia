@@ -1,12 +1,33 @@
 // src/screens/ResultScreen.js
-import {React, useState, useEffect} from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Animated } from 'react-native';
+import { Audio } from 'expo-av';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default function ResultScreen({ route, navigation }) {
   const { player1Score, player2Score, totalQuestions, mode } = route.params;
   const [fadeAnim] = useState(new Animated.Value(0));
+  const [endSound, setEndSound] = useState(null);
 
+  // Carregar e tocar som de finalização
+  useEffect(() => {
+    async function loadEndSound() {
+      const { sound } = await Audio.Sound.createAsync(
+        require('../../assets/sounds/endgame.mp3'),
+        { shouldPlay: true, volume: 0.5 }
+      );
+      setEndSound(sound);
+    }
+    loadEndSound();
+
+    return () => {
+      if (endSound) {
+        endSound.stopAsync().then(() => endSound.unloadAsync());
+      }
+    };
+  }, []);
+
+  // Animação de fade-in
   useEffect(() => {
     Animated.timing(fadeAnim, {
       toValue: 1,
@@ -19,7 +40,7 @@ export default function ResultScreen({ route, navigation }) {
     ? ((player1Score / totalQuestions) * 100).toFixed(2)
     : null;
 
-  const winner = player1Score > player2Score ? 'Jogador 1' : player2Score > player1Score ? 'Jogador 2' : 'Empate';
+  const winner = player1Score > player2Score ? 'Jogador 1' : player2Score > player2Score ? 'Jogador 2' : 'Empate';
 
   return (
     <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
@@ -48,7 +69,10 @@ export default function ResultScreen({ route, navigation }) {
       )}
       <TouchableOpacity
         style={styles.backButton}
-        onPress={() => navigation.navigate('Home')}
+        onPress={() => {
+          if (endSound) endSound.stopAsync();
+          navigation.navigate('Home');
+        }}
       >
         <Icon name="home" size={24} color="#fff" />
         <Text style={styles.backButtonText}>Voltar ao Início</Text>

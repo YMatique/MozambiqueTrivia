@@ -14,10 +14,12 @@ export default function GameScreen({ route, navigation }) {
   const [currentPlayer, setCurrentPlayer] = useState(1);
   const [questions, setQuestions] = useState([]);
   const [timeLeft, setTimeLeft] = useState(numQuestions * 30);
-  const [fadeAnim] = useState(new Animated.Value(0)); // Animação de fade-in
+  const [fadeAnim] = useState(new Animated.Value(0));
+  const [backgroundSound, setBackgroundSound] = useState(null);
 
   const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
+  // Carregar perguntas
   useEffect(() => {
     let allQuestions = [];
     if (category === 'Aleatório') {
@@ -31,6 +33,25 @@ export default function GameScreen({ route, navigation }) {
     setQuestions(shuffledQuestions);
   }, [category, numQuestions]);
 
+  // Carregar e tocar som de fundo
+  useEffect(() => {
+    async function loadBackgroundSound() {
+      const { sound } = await Audio.Sound.createAsync(
+        require('../../assets/sounds/background.mp3'),
+        { shouldPlay: true, isLooping: true, volume: 0.3 } // Volume baixo para não distrair
+      );
+      setBackgroundSound(sound);
+    }
+    loadBackgroundSound();
+
+    return () => {
+      if (backgroundSound) {
+        backgroundSound.stopAsync().then(() => backgroundSound.unloadAsync());
+      }
+    };
+  }, []);
+
+  // Animação de fade-in
   useEffect(() => {
     Animated.timing(fadeAnim, {
       toValue: 1,
@@ -58,6 +79,7 @@ export default function GameScreen({ route, navigation }) {
 
   const handleTimeUp = () => {
     Alert.alert('Tempo Esgotado!', 'O jogo terminou.');
+    if (backgroundSound) backgroundSound.stopAsync();
     navigation.navigate('Result', {
       player1Score,
       player2Score,
@@ -84,6 +106,7 @@ export default function GameScreen({ route, navigation }) {
     if (currentQuestionIndex + 1 < numQuestions) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
+      if (backgroundSound) backgroundSound.stopAsync();
       navigation.navigate('Result', {
         player1Score,
         player2Score,
