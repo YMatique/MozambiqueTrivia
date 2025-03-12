@@ -45,7 +45,7 @@ export default function GameScreen({ route, navigation }) {
       await sound.loadAsync(
         type === 'correct'
           ? require('../../assets/sounds/correct.mp3')
-          : require('../../assets/sounds/wrong.mp3')
+          : require('../../assets/sounds/wrong.wav')
       );
       await sound.playAsync();
       sound.setOnPlaybackStatusUpdate((status) => {

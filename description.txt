@@ -11,3 +11,5 @@ npx expo install react-native-reanimated react-native-gesture-handler
 
 # Sons
 npx expo install expo-av
+
+npx expo install expo-splash-screen
