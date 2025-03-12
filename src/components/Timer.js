@@ -22,9 +22,17 @@ export default function Timer({ initialTime, onTimeUp }) {
     return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
   };
 
-  return <Text style={styles.timer}>Tempo Restante: {formatTime(timeLeft)}</Text>;
+  return (
+    <Text style={styles.timer}>Tempo Restante: {formatTime(timeLeft)}</Text>
+  );
 }
 
 const styles = StyleSheet.create({
-  timer: { fontSize: 20, color: '#e74c3c', textAlign: 'center', marginBottom: 20 },
+  timer: {
+    fontSize: 20,
+    fontFamily: 'Roboto_700Bold',
+    color: '#e74c3c',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
 });
