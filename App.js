@@ -1,5 +1,5 @@
 // App.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
@@ -8,6 +8,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import HomeScreen from './src/screens/HomeScreen';
 import GameScreen from './src/screens/GameScreen';
 import ResultScreen from './src/screens/ResultScreen';
+import { themes, defaultTheme } from './src/themes';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ export default function App() {
     Lato_400Regular,
     Lato_700Bold,
   });
+  const [theme, setTheme] = useState(defaultTheme); // Tema inicial
 
   useEffect(() => {
     async function prepare() {
@@ -26,18 +28,28 @@ export default function App() {
     prepare();
   }, []);
 
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
   if (!fontsLoaded) {
-    return null; // Mantém a splash screen até as fontes carregarem
-  } else {
-    SplashScreen.hideAsync();
+    return null;
   }
 
   return (
-    <NavigationContainer>
+    <NavigationContainer onReady={onLayoutRootView}>
       <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Game" component={GameScreen} />
-        <Stack.Screen name="Result" component={ResultScreen} />
+        <Stack.Screen name="Home">
+          {(props) => <HomeScreen {...props} theme={themes[theme]} setTheme={setTheme} />}
+        </Stack.Screen>
+        <Stack.Screen name="Game">
+          {(props) => <GameScreen {...props} theme={themes[theme]} />}
+        </Stack.Screen>
+        <Stack.Screen name="Result">
+          {(props) => <ResultScreen {...props} theme={themes[theme]} />}
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
